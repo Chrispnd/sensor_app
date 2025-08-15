@@ -22,4 +22,4 @@ jobs:
       - name: install requirements
         run: pip install -r requirements.txt
       - name: unit tests
-        run : python3 -m unittest tests/test_capteur_visit.py
+        run : python3 -m unittest tests/test_capteur_visit.py && python" -m unittest test/test_store.py
